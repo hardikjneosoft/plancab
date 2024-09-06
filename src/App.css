@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.selected{
+  filter: url(#goo);
+}
+
+
+.selected-background{
+  position: absolute;
+  height: 2.5em;
+  width: 2.5em;
+  bottom: 0em;
+  /* background-color: blue; */
+}
