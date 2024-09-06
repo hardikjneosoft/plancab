@@ -37,6 +37,10 @@
   }
 }
 
+#filter-svg{
+  display: none;
+}
+
 .selected{
   filter: url(#goo);
 }
@@ -47,5 +51,6 @@
   height: 2.5em;
   width: 2.5em;
   bottom: 0em;
+  left: 0;
   /* background-color: blue; */
 }
